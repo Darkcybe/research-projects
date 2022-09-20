@@ -2,7 +2,7 @@
 
 [Windows Server 2003 SP2](https://www.microsoft.com/en-au/download/details.aspx?id=21700)
 [Windows Server 2008 R2](https://www.microsoft.com/en-au/download/details.aspx?id=2227)
-[Windows Server 2012 R2](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2012-r2)
+[Windows Server 2012 R2](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2012-R2)
 [Windows Server 2016](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2016)
 [Windows Server 2019](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019)
 [Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022)
