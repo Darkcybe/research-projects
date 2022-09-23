@@ -1,7 +1,7 @@
 # Jump Lists
-The Windows task bar (Jump List) is engineered to allow users to “jump” or access items they have frequently or recently used quickly and easily. This can include files, applications, and directories to name the major items of significance for forensic investigations.
+The Windows task bar (Jump List) is engineered to allow users to “jump” or access items they have frequently or recently. This can include files, applications, and directories to name the major items of significance for forensic investigations.
 
-The data stored in the AutomaticDestinations folder will each have a unique file prepended with the AppID of the associated application, such as the following example which depicts the AppID of Windows Explorer 8.1: `f01b4d95cf55d32a.automaticDestinations-ms`.
+The data stored in the AutomaticDestinations directory contains a unique file for each application prepended with a unique Application ID (AppID) correlated to the associated application, such as the following example which depicts the AppID of Windows Explorer 8.1: `f01b4d95cf55d32a.automaticDestinations-ms`.
 
 WIN: 7+
 SRV: 2012
