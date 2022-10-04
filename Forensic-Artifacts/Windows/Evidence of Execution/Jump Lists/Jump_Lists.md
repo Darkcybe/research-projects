@@ -3,8 +3,11 @@ The Windows task bar (Jump List) is engineered to allow users to “jump” or a
 
 The data stored in the AutomaticDestinations directory contains a unique file for each application prepended with a unique Application ID (AppID) correlated to the associated application, such as the following example which depicts the AppID of Windows Explorer 8.1: `f01b4d95cf55d32a.automaticDestinations-ms`.
 
-WIN: 7+
-SRV: 2012
+| Windows    | XP     | 7      | 8      | 10   | 11   |      |
+|------------|--------|--------|--------|------|------|------|
+|            |        | ✅      | ✅      | ✅    | ✅    |      |
+| **Server** | 2003R2 | 2008R2 | 2012R2 | 2016 | 2019 | 2022 |
+|            |        |        | ✅      | ✅    | ✅    | ✅    |
 
 ## Location
 C:%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations

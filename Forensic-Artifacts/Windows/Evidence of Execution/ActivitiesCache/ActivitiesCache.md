@@ -1,5 +1,11 @@
 # Windows Timeline (Activities Cache.db)
 
+| Windows    | XP     | 7      | 8      | 10   | 11   |      |
+|------------|--------|--------|--------|------|------|------|
+|            |        |        |        | ✅    | ✅    |      |
+| **Server** | 2003R2 | 2008R2 | 2012R2 | 2016 | 2019 | 2022 |
+|            |        |        |        |      | ✅    | ✅    |
+
 ## Location
 C:\Users\%PROFILE%\AppData\Local\ConnectedDevicesPlatform\L.%PROFILE%\ActivitiesCache.db
 

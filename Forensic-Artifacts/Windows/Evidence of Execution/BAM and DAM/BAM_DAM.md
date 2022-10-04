@@ -3,13 +3,16 @@ Windows BAM and DAM are updated when Windows boots and controls the activity of 
 
 BAM and DAM entries are only stored during a session, with events clearing upon reboot or when entries have been present in the key for over 7 days. Another item to consider is that executables hosted on removable media are not recorded in the BAM or DAM.
 
+| Windows    | XP     | 7      | 8      | 10   | 11   |      |
+|------------|--------|--------|--------|------|------|------|
+|            |       |       |       | ✅    | ✅    |      |
+| **Server** | 2003R2 | 2008R2 | 2012R2 | 2016 | 2019 | 2022 |
+|            |       |       |       |     | ✅    | ✅    |
+
 ## Location
 HKLM\System\CurrentControlSet\Services\bam\state\UserSettings\{SID}
 
 > `CurrentControlSet` may be substituted by `ControlSet001` or `ControlSet002`. The `ControlSet00x` are alternating backups of the `CurrentControlSet`.
-
-WIN: 10+
-SRV: 2019+
 
 ## Testing
 

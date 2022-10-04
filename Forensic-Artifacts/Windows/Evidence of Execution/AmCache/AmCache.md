@@ -1,10 +1,15 @@
 # AmCache
 
-## Location
-C:\Windows\AppCompat\Programs\Amcache.hve
+| Windows    | XP     | 7      | 8      | 10   | 11   |      |
+|------------|--------|--------|--------|------|------|------|
+|            |       | ✅      | ✅      | ✅    | ✅    |      |
+| **Server** | 2003R2 | 2008R2 | 2012R2 | 2016 | 2019 | 2022 |
+|            |       | ✅      | ✅      | ✅    | ✅    | ✅    |
 
-WIN: 7+
-SRV: 2008 R2+
+## Location
+```powershell
+C:\Windows\AppCompat\Programs\Amcache.hve
+```
 
 ## Testing
 Amcache.hve locked by system when attempting to locally copy. Running Registry Explorer as an Administrator allows the hive to be loaded and navigated through as well as the option to output to .csv. AmcacheParser can also be run as an Administrator on the live hive which dumps .csv output

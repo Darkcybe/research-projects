@@ -1,8 +1,11 @@
 # LastVisitedMRU
 The LastVisitedMRU is responsible for tracking specific executables used by an application to open files documented under the OpenSaveMRU registry key. In addition, each value tracks the directory location for the last file that was accessed by that application. The information can provide forensic insight into an applications execution and file and folder interaction.
 
-**WIN:** XP+ <br>
-**SRV:** 2003+
+| Windows    | XP     | 7      | 8      | 10   | 11   |      |
+|------------|--------|--------|--------|------|------|------|
+|            | ✅      | ✅      | ✅      | ✅    | ✅    |      |
+| **Server** | 2003R2 | 2008R2 | 2012R2 | 2016 | 2019 | 2022 |
+|            | ✅      | ✅      | ✅      | ✅    | ✅    | ✅    |
 
 # Location
 ```plaintext
