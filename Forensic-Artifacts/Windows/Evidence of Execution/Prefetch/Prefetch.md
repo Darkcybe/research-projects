@@ -4,21 +4,11 @@ Increases performance of a system by pre-loading code pages of commonly used app
 - Limited to 1024 files on Windows 8
 - `<EXE_NAME>-<HASH>.pf`
 
-| OS Category | Applicability |
-| --- | --- |
-| Windows XP | :white-check-box: |
-| Windows 7 |
-| Windows 8 |
-| Windows 10 |
-
-| Windows | XP | 7 | 8 | 10 | 11 |
-| --- | --- | --- | --- | --- | --- |
-| | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **Server** | 2003 | 2008R2 | 2012R2 | 2016 | 2019 | 2022 |
-| | | | | | |
-
-**WIN:** XP+ <br>
-**SRV:** NULL
+| Windows    | XP     | 7      | 8      | 10   | 11   |      |
+|------------|--------|--------|--------|------|------|------|
+|            | ✅     | ✅    | ✅     | ✅  | ✅   |      |
+| **Server** | 2003R2 | 2008R2 | 2012R2 | 2016 | 2019 | 2022 |
+|            |        |        |        |      |      |      |
 
 ### Location
 ```plaintext
