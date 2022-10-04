@@ -20,7 +20,7 @@ C:\Windows\Prefetch
 ```
 
 ### Interpretation and Investigative Notes
-- Each Prefetch file will include last time of execution, number of times run, and device and file handles used by the program. Windows XP and 7 hosts will record the last 128 applications, whereas from Windows 8 it will record 1024.
+- Each Prefetch file will include last time of execution, number of times run, and device and file handles used by the program.
 - Date/Time file by that name and path was first executed
   - Creation Date of .pf file (-10 seconds)
 - Date/Time file by that name and path was last executed
@@ -29,7 +29,14 @@ C:\Windows\Prefetch
 ## Testing
 
 ### Windows 11
-
+- **Interesting Fields**
+  - **SourceCreated** = .pf Creation Timestamp
+  - **SourceModified** = .pf Modification Timestamp
+  - **SourceAccessed** = .pf Last Access Timestamp (Will be overwritten by tooling)
+  - **ExecutableName** = Name of executable
+  - **RunCount** = Amount of times executed
+  - **LastRun** = Timestamp of last execution
+  - **PreviousRun#** = Timestamps of previous executions
 
 ### Server 2022
 - Creating and amending the `EnablePrefetcher` or `EnableSuperfetch` did not enable the service. Attempted to stop SysMain via `sc stop sysmain`, make the registry changes and start SysMain again, and performed reboots to no avail.
