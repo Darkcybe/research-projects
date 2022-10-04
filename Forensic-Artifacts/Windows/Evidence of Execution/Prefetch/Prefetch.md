@@ -13,10 +13,9 @@ Increases performance of a system by pre-loading code pages of commonly used app
 
 | Windows | XP | 7 | 8 | 10 | 11 |
 | --- | --- | --- | --- | --- | --- |
-| | x | x | | | |
-| --- | --- | --- | --- | --- | --- |
-| Server | 2003 | 2008R2 | 2012R2 | 2016 | 2019 | 2022 |
-| | x | | | | |
+| | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Server** | 2003 | 2008R2 | 2012R2 | 2016 | 2019 | 2022 |
+| | | | | | |
 
 **WIN:** XP+ <br>
 **SRV:** NULL
